@@ -1,0 +1,19 @@
+{
+  "name": "amilaten",
+  "version": "1.0.0",
+  "description": "am i late",
+  "main": "www/AmILate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanngo/AmILateN.git"
+  },
+  "author": "'tanngo_1303@yahoo.com' <'tanngo_1303@yahoo.com'> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanngo/AmILateN/issues"
+  },
+  "homepage": "https://github.com/tanngo/AmILateN#readme"
+}
