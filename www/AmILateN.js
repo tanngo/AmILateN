@@ -1,6 +1,7 @@
 var exec = require('cordova/exec');
 
-module.exports.getNextAppointment = function(success, error, args) {
+var AmILateN = function(){}
+AmILateN.prototype.getNextAppointment = function(success, error, args) {
     if (args.length == 0 || args[0] < 0) {
         // Invalid call to the plugin, so return an error condition
         error('Invalid value for minutes argument');
@@ -22,3 +23,13 @@ module.exports.getNextAppointment = function(success, error, args) {
         success('');
     }
 }
+
+
+if(!window.plugins)
+    window.plugins = {};
+
+if (!window.plugins.OneSignal)
+    window.plugins.AmILateN = new AmILateN();
+
+if (typeof module != 'undefined' && module.exports)
+    module.exports = AmILateN;
