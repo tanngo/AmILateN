@@ -1,6 +1,6 @@
 {
   "name": "amilaten",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "am i late",
   "main": "www/AmILate.js",
   "scripts": {
@@ -11,13 +11,7 @@
     "platforms": [
       "android"
       
-    ],
-	"engines": [
-    {
-      "name": "cordova-android",
-      "version": ">=4.0.0"
-    }
-	]
+    ]
   },
   "repository": {
     "type": "git",
