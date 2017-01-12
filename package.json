@@ -1,6 +1,6 @@
 {
   "name": "amilaten",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "am i late",
   "main": "www/AmILate.js",
   "scripts": {
@@ -17,7 +17,7 @@
     
   ],
   "cordova": {
-    "id": "onesignal-cordova-plugin",
+    "id": "cordova-plugin-am-i-laten",
     "platforms": [
       "android"
       
