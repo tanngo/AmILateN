@@ -1,4 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-am-i-laten" version="1.0.5" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>AmILateN</name><js-module name="AmILateN" src="www/AmILateN.js"><clobbers target="cordova.plugins.AmILateN" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="AmILateN"><param name="android-package" value="cordova-plugin-am-i-laten.AmILateN" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml">
-    <uses-permission android:name="android.permission.READ_CALENDAR"/>
-</config-file><source-file src="src/android/AmILateN.java" target-dir="src/cordova-plugin-am-i-laten/AmILateN" /></platform></plugin>
+<plugin id="cordova-plugin-am-i-laten" version="1.0.6" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>AmILateN</name>
+	<js-module name="AmILateN" src="www/AmILateN.js">
+		<clobbers target="cordova.plugins.AmILateN" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="AmILateN">
+				<param name="android-package" value="cordova-plugin-am-i-laten.AmILateN" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml">
+			<uses-permission android:name="android.permission.READ_CALENDAR"/>
+		</config-file>
+		<source-file src="src/android/AmILateN.java" target-dir="src/cordova-plugin-am-i-laten/AmILateN" />
+	</platform>
+</plugin>
