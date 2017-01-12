@@ -1,6 +1,6 @@
 {
   "name": "amilaten",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "am i late",
   "main": "www/AmILate.js",
   "scripts": {
